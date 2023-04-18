@@ -1,0 +1,59 @@
+Prepare operation
+0 has voted as : commit
+Commit operation
+Prepare operation
+0 has voted as : abort
+Abort operation
+Prepare operation
+NodeFailure scenario, this client will not respond to prepare. Server assumes abort and send abort operation
+Abort operation
+Abort operation
+Prepare operation
+NodeFailure scenario, this client will not respond to prepare. Server assumes abort and send abort operation
+Abort operation
+Prepare operation, Node failure scenario. Timeout set to 15
+Abort operation
+0 has voted as : commit
+Coordinator failure before sending prepare message. Timeout and heading for abort operation
+Abort operation
+Coordinator failure after sending prepare message.
+Sending commit, but Coordinator not recieved
+Prepare operation. Coordinator recovers and sends prepare operation. But Node responds abort
+0 has voted as : abort
+Abort operation
+Prepare operation
+0 has voted as : commit
+Commit operation
+Commit operation
+Prepare operation. Coordinator recovers and sends prepare operation. But Node responds abort
+0 has voted as : abort
+Commit operation
+Prepare operation
+0 has voted as : commit
+Commit operation
+Prepare operation. Coordinator recovers and sends prepare operation. But Node responds abort
+0 has voted as : abort
+Commit operation
+Prepare operation
+0 has voted as : commit
+Commit operation
+Prepare operation
+0 has voted as : commit
+Commit operation
+Abort operation
+Prepare operation
+0 has voted as : commit
+Prepare operation
+Commit operation
+0 has voted as : commit
+Abort operation
+Commit operation
+Prepare operation
+0 has voted as : commit
+Commit operation
+Prepare operation
+0 has voted as : commit
+Commit operation
+Prepare operation
+0 has voted as : commit
+Commit operation

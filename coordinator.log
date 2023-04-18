@@ -1,0 +1,223 @@
+Node 0 is connected
+Node 1 is connected
+Node 1 has voted - commit
+Node 0 has voted - commit
+Sending commit message to node - 0
+Sending commit message to node - 1
+Node 0 is connected
+Node 1 is connected
+Node 1 has voted - commit
+Node 0 has voted - commit
+Sending commit message to node - 0
+Sending commit message to node - 1
+Node 0 has voted - commit
+Node 1 has voted - commit
+Sending commit message to node - 0
+Sending commit message to node - 1
+Node 0 is connected
+Node 1 is connected
+Node 1 has voted - abort
+Sending abort message to node - 0
+Node 0 has voted - commit
+Sending abort message to node - 1
+Node 1 has voted - commit
+Node 0 has voted - commit
+Sending commit message to node - 0
+Sending commit message to node - 1
+Node 1 has voted - abort
+Sending abort message to node - 0
+Node 0 has voted - commit
+Sending abort message to node - 1
+Node 0 is connected
+Node 1 is connected
+Node 1 has voted - commit
+Sending abort message to node - 0
+Sending abort message to node - 1
+Node 0 has voted - commit
+Node 0 is connected
+Node 1 is connected
+Node 0 has voted - commit
+Node 0 is connected
+Node 1 is connected
+Node 1 has voted - commit
+Sending abort message to node - 0
+Sending abort message to node - 1
+Node 0 is connected
+Node 0 is connected
+Node 1 is connected
+Node 1 has voted - commit
+Node 0 has voted - commit
+Sending commit message to node - 0
+Sending commit message to node - 1
+Node failure scenario, response is not recieved from Node 1. Assumes abort, Coordinator sends abort message
+Node failure scenario, response is not recieved from Node 1. Assumes abort, Coordinator sends abort message
+Node 1 has voted - commit
+Sending abort message to node - 0
+Sending abort message to node - 1
+Node failure scenario, response will be delayed from Node 0. Response timeout and Coordinator sends abort message
+Node failure scenario, response will be delayed from Node 0. Response timeout and Coordinator sends abort message
+Node 1 has voted - commit
+Sending abort message to node - 0
+Sending abort message to node - 1
+Node 0 has voted - commit
+Coordinator failure scenario, fails before sending prepare message
+Coordinator failure scenario, fails before sending prepare message
+Node 0 is connected
+Node 1 is connected
+Coordinator failure scenario, fails before sending prepare message
+Coordinator failure scenario, fails before sending prepare message
+Node 0 has voted - commitTcFailureBefore
+Sending abort message to node - 0
+Sending abort message to node - 1
+Node 0 is connected
+Node 1 is connected
+Coordinator failure scenario, fails before sending prepare message
+Coordinator failure scenario, fails before sending prepare message
+Node 0 is connected
+Node 1 is connected
+Node 0 is connected
+Node 1 is connected
+Node 0 is connected
+Node 1 is connected
+Coordinator failure scenario, fails before sending prepare message
+Coordinator failure scenario, fails before sending prepare message
+Coordinator failure scenario, fails after sending prepare message. Clients respond abort after Coordinator comes online.
+Coordinator failure scenario, fails after sending prepare message. Clients respond abort after Coordinator comes online.
+Coordinator sent prepare operation, but Nodes respond abort, since TC recovered now.
+Coordinator sent prepare operation, but Nodes respond abort, since TC recovered now.
+Node 0 has voted - abort
+Sending abort message to node - 0
+Node 1 has voted - abort
+Sending abort message to node - 1
+Sending abort message to node - 0
+Node 0 is connected
+Node 1 is connected
+Node 1 has voted - commit
+Node 0 has voted - commit
+Sending commit message to node - 0
+Sending commit message to node - 1
+Node 1 has voted - abort
+Sending abort message to node - 0
+Node 0 has voted - abort
+Sending abort message to node - 1
+Node failure scenario, response is not recieved from Node 1. Assumes abort, Coordinator sends abort message
+Node failure scenario, response is not recieved from Node 1. Assumes abort, Coordinator sends abort message
+Sending abort message to node - 0
+Node 1 has voted - commit
+Sending abort message to node - 1
+Sending abort message to node - 0
+Node 1 is connected
+Node 1 is connected
+Node 0 is connected
+Node 1 is connected
+Node failure scenario, response is not recieved from Node 0. Assumes abort, Coordinator sends abort message
+Node failure scenario, response is not recieved from Node 0. Assumes abort, Coordinator sends abort message
+Node 1 has voted - commit
+Sending abort message to node - 0
+Sending abort message to node - 1
+Node failure scenario, response will be delayed from Node 0. Response timeout and Coordinator sends abort message
+Node failure scenario, response will be delayed from Node 0. Response timeout and Coordinator sends abort message
+Node 1 has voted - commit
+Sending abort message to node - 0
+Sending abort message to node - 1
+Node 0 has voted - commit
+Coordinator failure scenario, fails before sending prepare message
+Coordinator failure scenario, fails before sending prepare message
+Coordinator failure scenario, fails after sending prepare message. Clients respond abort after Coordinator comes online.
+Coordinator failure scenario, fails after sending prepare message. Clients respond abort after Coordinator comes online.
+Coordinator sent prepare operation, but Nodes respond abort, since TC recovered now.
+Coordinator sent prepare operation, but Nodes respond abort, since TC recovered now.
+Node 0 has voted - abort
+Node 1 has voted - abort
+Sending abort message to node - 0
+Sending abort message to node - 1
+Sending abort message to node - 0
+Node 0 is connected
+Node 1 is connected
+Node 1 is connected
+Coordinator failure scenario, fails after sending 1 commit. Coordinator recovers, reads log to send commit
+Coordinator failure scenario, fails after sending 1 commit. Coordinator recovers, reads log to send commit
+Node 1 has voted - commit
+Node 0 is connected
+Coordinator recovers and reads log to send commit to other node
+Coordinator failure scenario, fails after sending 1 commit. Coordinator recovers, reads log to send commit
+Coordinator failure scenario, fails after sending 1 commit. Coordinator recovers, reads log to send commit
+Node 1 has voted - commit
+Node 0 has voted - commit
+Sending commit message to node - 0
+Coordinator fails after sending commit to Node 0
+Coordinator sent prepare operation, but Nodes respond abort, since TC recovered now.
+Sending commit message to node - 0
+Sending commit message to node - 1
+Coordinator recovers and reads log to send commit to other node
+Node 0 has voted - abort
+Sending commit message to node - 0
+Coordinator fails after sending commit to Node 0
+Sending abort message to node - 0
+Node 0 is connected
+Node 0 is connected
+Node 1 is connected
+Coordinator failure scenario, fails after sending 1 commit. Coordinator recovers, reads log to send commit
+Coordinator failure scenario, fails after sending 1 commit. Coordinator recovers, reads log to send commit
+Node 0 has voted - commit
+Node 1 has voted - commit
+Sending commit message to node - 0
+Coordinator fails after sending commit to Node 0
+Coordinator sent prepare operation, but Nodes respond abort, since TC recovered now.
+Coordinator recovers and reads log to send commit to other node
+Node 0 has voted - abort
+Sending commit message to node - 0
+Coordinator fails after sending commit to Node 0
+Sending abort message to node - 0
+Node 0 is connected
+Node 1 is connected
+Coordinator failure scenario, fails after sending 1 commit. Coordinator recovers, reads log to send commit
+Coordinator failure scenario, fails after sending 1 commit. Coordinator recovers, reads log to send commit
+Node 0 has voted - commit
+Node 1 has voted - commit
+Sending commit message to node - 0
+Coordinator fails after sending commit to Node 0
+Coordinator recovers and reads log to send commit to other node
+Node 0 is connected
+Node 1 is connected
+Coordinator failure scenario, fails after sending 1 commit. Coordinator recovers, reads log to send commit
+Coordinator failure scenario, fails after sending 1 commit. Coordinator recovers, reads log to send commit
+Node 0 has voted - commit
+Node 1 has voted - commit
+Sending commit message to node - 0
+Coordinator fails after sending commit to Node 0
+Sending abort message to node - 0
+Sending abort message to node - 1
+Node 0 has voted - commit
+Node 1 has voted - commit
+Coordinator recovers and reads log to send commit to other node
+Sending commit message to node - 0
+Sending commit message to node - 1
+Node 0 has voted - commit
+Node 1 has voted - commit
+Sending abort message to node - 0
+Sending commit message to node - 0
+Sending abort message to node - 1
+Node 0 is connected
+Node 1 is connected
+Node 1 has voted - commit
+Node 0 has voted - commit
+Sending commit message to node - 0
+Sending commit message to node - 1
+Coordinator failure scenario, fails after sending 1 commit. Coordinator recovers, reads log to send commit
+Coordinator failure scenario, fails after sending 1 commit. Coordinator recovers, reads log to send commit
+Node 0 has voted - commit
+Sending commit message to node - 0
+Node 1 has voted - commit
+Coordinator fails after sending commit to Node 0
+Coordinator recovers and reads log to send commit to other node
+Node 0 is connected
+Node 1 is connected
+Coordinator failure scenario, fails after sending 1 commit. Coordinator recovers, reads log to send commit
+Coordinator failure scenario, fails after sending 1 commit. Coordinator recovers, reads log to send commit
+Node 0 has voted - commit
+Node 1 has voted - commit
+Sending commit message to node - 0
+Coordinator fails after sending commit to Node 0
+Coordinator recovers and reads log to send commit to other node
+Sending commit message to node - 1

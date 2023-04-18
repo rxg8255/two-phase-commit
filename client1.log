@@ -1,0 +1,45 @@
+Prepare operation
+1 has voted as : commit
+Commit operation
+Prepare operation
+1 has voted as : abort
+Abort operation
+1 has voted as : commit
+Abort operation
+1 has voted as : commit
+Abort operation
+Prepare operation
+1 has voted as : commit
+Abort operation
+Coordinator failure before sending prepare message. Timeout and heading for abort operation
+Abort operation
+Coordinator failure after sending prepare message.
+Sending commit, but Coordinator not recieved
+Prepare operation. Coordinator recovers and sends prepare operation. But Node responds abort
+1 has voted as : abort
+Abort operation
+Prepare operation
+1 has voted as : commit
+Prepare operation
+1 has voted as : commit
+Commit operation
+Prepare operation
+1 has voted as : commit
+Prepare operation
+1 has voted as : commit
+Prepare operation
+1 has voted as : commit
+Abort operation
+Prepare operation
+1 has voted as : commit
+Prepare operation
+1 has voted as : commit
+Commit operation
+Prepare operation
+1 has voted as : commit
+Commit operation
+Prepare operation
+1 has voted as : commit
+Prepare operation
+1 has voted as : commit
+Commit operation
